@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div style="height:300px;" id="hello"></div>
+
+	<script type="text/javascript" src="../dist/hhFrame.min.js"></script>
+	<script type="text/javascript">
+		
+		var HH = hhFrame('hello', { })
+
+		HH.on('state.ready', function(){
+
+			HH.call('ui.theme', 'dark');
+
+			HH.call('auth.signupExpress', {
+				email: "user@emai2slss22.com", 
+				name: "Name2 of thisd222 user"
+			}, function(error, data){
+				console.log(error, data);
+				alert('done!')
+			});
+
+		})
+
+	</script>
+
+</body>
+</html>

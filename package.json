@@ -1,0 +1,11 @@
+{
+  "name": "hhframe",
+  "version": "1.0.1",
+  "description": "",
+  "main": "hhFrame.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hhconnect": "^2.0.1"
+  }
+}
