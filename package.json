@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "",
   "main": "hhFrame.js",
-  "author": "",
+  "author": "HackHands Dev Team",
   "license": "MIT",
   "dependencies": {
     "hhconnect": "^2.0.1"

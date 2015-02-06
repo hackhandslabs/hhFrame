@@ -1,6 +1,7 @@
 # HackHands Frame (beta)
 Easy way to inject and use the HackHands API
 
+
 ## API
 #### hhFrame( targetID, options )
 Initializes a new iframe inside targetID element and returns an instance of hhConnect so you can communicate with the HackHands API. 
@@ -16,6 +17,7 @@ HH.on('state.ready', function(){
 
 })
 ```
+
 
 ## License 
 
