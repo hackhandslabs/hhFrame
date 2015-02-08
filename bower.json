@@ -1,0 +1,20 @@
+{
+  "name": "hhframe",
+  "version": "1.0.2",
+  "authors": [
+    "HackHands Dev Team"
+  ],
+  "description": "Easy way to inject and use the HackHands API",
+  "main": "dist/hhFrame.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
